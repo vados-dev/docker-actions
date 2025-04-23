@@ -1,6 +1,6 @@
-# Hello world docker action
+# Hello world docker actions
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action prints  the name of a person to greet to the log.
 
 ## Inputs
 
@@ -16,6 +16,6 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-world-docker-action@v2
+uses: actions/docker-actions@v2
 with:
   who-to-greet: 'Mona the Octocat'
